@@ -1,0 +1,88 @@
+header{
+	display: block;
+  	position: relative;
+}
+header::after {
+  content: "";
+  background-image: url(../img/fondo.jpg);
+  height: 600px;
+  max-width: 100%;
+  background-size: 100% 100%;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+ul{
+	margin-left: 63%;
+}
+.menu{
+	display: table-cell;
+	padding: 25px;
+	text-decoration: none;
+	color: #55535A;
+}
+.ver_mas{
+	border-color: #D68910;
+	background-color: #D68910;
+	color: white;
+	padding: 1.5%;
+	margin-left: 160px;
+}
+.ver_mas:hover {
+ background: rgba(0,0,0,0);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #3a7999;
+}
+.laboratoria {
+	text-shadow: 0px -4px 0px #333, 0px 2px 3px #666;
+	margin-left: 550px;
+    margin-top: 150px;
+    font-size: 85px;
+}
+.lab{
+	margin-left: 500px;
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+/*seccion peliculas*/
+
+.box{
+	border-color:2px solid black;
+	text-align: justify;
+	background-color: #ADF0FE;
+    margin-left: 105px;
+    margin-top: 380px;
+}
+.pelicula{
+	width: 300px;
+	height: 300px;
+}	
+.imagen{
+
+	text-align: center;
+}
+.fila1{
+	background-image: url(../img/foggy-birds.png);
+	max-width: 100%;
+	height: 100%;
+	margin-top: -120px;
+}
+.fila2{
+	margin-top: -323px;
+	background-image: url(../img/foggy-birds.png);
+	max-width: 100%;
+	height: 100%;
+}
+.pie{
+	color: white;
+	background-color: #133389;
+	font-size: 12px;
+	text-align: left;
+	padding-top: 27px;
+	margin-top: 55px;
+}
